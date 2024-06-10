@@ -1,0 +1,59 @@
+.small-box .icon>i{
+    font-size: 70px !important;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: all .3s linear;
+}
+.nav-item .nav-link.active {
+    border-radius: 0.25rem !important;
+    border-width: 3px !important;
+    border-color: #fff !important;
+    border-top: 3px solid #dee2e6 !important;
+    border-bottom: 3px solid #dee2e6 !important;
+}
+.nav-item p{
+    padding-left: 5px !important;
+}
+.login-logo a, .register-logo a {
+    color: #495057 !important;
+    font-size: 40px !important;
+    font-weight: 500 !important;
+}
+.card-header {
+    background-color: #e9ecef !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+    padding: .75rem 1.25rem !important;
+    position: relative !important;
+    border-top-left-radius: .25rem !important;
+    border-top-right-radius: .25rem !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: #495057 !important;
+
+}
+.btn-success {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    box-shadow: none !important;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem 1.75rem !important;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
